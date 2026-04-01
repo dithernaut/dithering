@@ -1,0 +1,18 @@
+[project]
+name = "dithering"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy",
+    "Pillow",
+    "hitherdither @ git+https://github.com/hbldh/hitherdither.git",
+]
+
+[tool.setuptools]
+py-modules = ["dither", "dither_explorer", "palettes"]
+
+[project.scripts]
+dither = "dither:main"
+dither-explorer = "dither_explorer:main"
