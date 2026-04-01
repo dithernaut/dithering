@@ -1,6 +1,6 @@
 # Dithering
 
-![Dithering](gh-cover.webp)
+![Dithering](gh-cover.png)
 
 A set of tools to apply dithering algorithms with custom palettes and scalings
 
